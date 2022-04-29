@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Form</title>
+  </head>
+  <body>
+    <div class="form-header">
+      <h1><a href="./index.html">BURGER</a></h1>
+    </div>
+    <div class="form-title">
+      <h2>Fill out the login information for our site</h2>
+      <h3>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus
+      </h3>
+    </div>
+    <section class="form-wrapper">
+      <form action="destination.html" method="GET">
+        <div class="form-input-label">
+          <label>First Name</label>
+          <input type="text" id="first-name" required />
+        </div>
+        <div class="form-input-label">
+          <label>Last Name</label>
+          <input type="text" id="Last-name" required />
+        </div>
+        <div class="form-input-label">
+          <label>Company</label>
+          <input type="text" id="company" required />
+        </div>
+        <div class="form-input-label">
+          <label>Email</label>
+          <input type="email" id="Email" required />
+        </div>
+        <div class="form-input-label">
+          <label>Contact Phone</label>
+          <input type="text" id="Contact Phone" required/>
+        </div>
+        <div class="form-input-label">
+          <label>Password</label>
+          <input  minlength="5" type="password" id="Password" required/>
+          <p class="password">Minimum of 5 Characters</p>
+        </div>
+        <div class="form-input-label">
+          <label>Secure site</label>
+          <input type="text" id="Secure-site" required/>
+          <p class="secure-site">@Burger.com</p>
+        </div>
+        <div class="form-input-label-select">
+          <label for="Team-Size">Team Size</label>
+          <select name="Team-Size" id="Team-Size">
+            <option value="Please Select">Please Select</option>
+            <option value="20">20</option>
+            <option value="30">30</option>
+            <option value="40">40</option>
+          </select>
+        </div>
+        <div class="submit-wrapper">
+          <input  class="submitButton" type="submit" value="Register"  ></input>
+        </div>
+      </form>
+      <div class="side-comment">
+        <h3>5 Reasons You'll Love Harvest</h3>
+        <p>1. Look professional with style</p>
+        <p>2. Your data stays safe and secure</p>
+        <p>3. Track and grow your business</p>
+        <p>4. Real people to answer your questins</p>
+      </div>
+    </section>
+    <script href="./main.js"></script>
+  </body>
+</html>

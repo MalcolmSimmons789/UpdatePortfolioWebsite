@@ -1,0 +1,39 @@
+@import "./header";
+@import "./main";
+@import "./todolist";
+
+html {
+  height: 100vh;
+  min-width: 600px;
+  background-image: linear-gradient(130deg, white, rgb(78, 106, 197));
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: white;
+  outline: 0;
+  border: none;
+  color: #595959;
+  &:hover {
+    color: lightcoral;
+  }
+}
+
+.container {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  font-family: "roboto", sans-serif;
+  .logo {
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 0;
+    align-items: center;
+  }
+}

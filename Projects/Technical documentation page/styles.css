@@ -1,0 +1,156 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Start Nav */
+#navbar {
+  display: flex;
+  position: relative;
+}
+
+.nav-wrapper {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  border-right: solid black 2px;
+}
+
+.nav-wrapper ul li {
+  padding: 15px;
+  border-top: 1px solid rgba(0, 0, 0, 0.09);
+  border-bottom: 1px solid rgba(225, 225, 225, 0.05);
+}
+
+.nav-wrapper ul li a {
+  color: rgb(0, 0, 0);
+  display: block;
+  text-decoration: none;
+}
+
+.nav-wrapper ul li:hover {
+  background-color: rgba(112, 112, 112, 0.205);
+  color: rgb(0, 0, 0);
+}
+
+.nav-wrapper h1 {
+  padding: 5px;
+  font-family: "Carattere", cursive;
+  font-size: 30px;
+}
+
+.nav-wrapper h1 a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+/* End Nav */
+
+/* Introduction Doc */
+#main-doc {
+  width: 100%;
+  margin-left: 200px;
+  font-family: "Lato", sans-serif;
+}
+
+.main-section h2 {
+  margin: 25px;
+  font-size: 38px;
+}
+
+.main-section li {
+  list-style-type: none;
+}
+
+.main-section p {
+  margin: 25px;
+  width: 1000px;
+}
+
+.main-section li {
+  list-style-type: disc;
+  margin-left: 50px;
+  font-size: 14px;
+  width: 1000px;
+}
+
+.main-section code {
+  font-size: 15px;
+  padding: 1px;
+  border-radius: 2px;
+  background-color: rgba(128, 128, 128, 0.233);
+}
+
+.main-section code p {
+  font-size: 15px;
+  padding: 10px;
+  margin: 0;
+  border-radius: 2px;
+  text-align: left;
+  background-color: rgba(128, 128, 128, 0.233);
+}
+
+/* End Introduction */
+
+/* Start Styling section */
+
+#Styling-section h2 {
+  margin-top: 60px;
+}
+
+#Styling-section img {
+  width: 450px;
+  height: 250px;
+  margin: 40px;
+  padding: 10px;
+  object-fit: fill;
+  border: solid 2px black;
+}
+/* End Styling section */
+
+/* Start Changing default Elements */
+#Changing-default-section code {
+  margin: 0;
+}
+/* End Changing Elements */
+
+/* Start Styling-things-based-on-state */
+.main-section img {
+  width: 450px;
+  height: 250px;
+  margin: 40px;
+  padding: 10px;
+  object-fit: fill;
+  border: solid 2px black;
+}
+/* End Styling-things-based-on-state */
+
+/* Reference */
+#Reference {
+  margin: 80px;
+}
+/* End Reference */
+
+/* Start Media */
+
+@media only screen and (max-width: 800px) {
+  #navbar {
+    display: none;
+    position: none;
+  }
+
+  .nav-wrapper {
+    position: none;
+    width: 0;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    font-family: "Lato", sans-serif;
+    border-right: solid black 2px;
+  }
+  #main-doc {
+    width: 100%;
+    margin-left: 0px;
+    font-family: "Lato", sans-serif;
+  }
+}

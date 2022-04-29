@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(213, 213, 213);
+}
+
+.Main__wrapper {
+  padding: 20px 0;
+  border: solid #fbeeca 2px;
+  border-radius: 5px;
+  color: #5ebec4;
+  background-color: #fdf5df;
+  margin: 250px auto;
+  width: 50%;
+  text-align: center;
+}

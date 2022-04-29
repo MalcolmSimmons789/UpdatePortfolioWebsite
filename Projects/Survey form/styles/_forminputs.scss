@@ -1,0 +1,62 @@
+.form-wrapper {
+  width: 1000px;
+  display: inline-flex;
+  form {
+    margin: 8px;
+    padding: 20px;
+    .form-input-label {
+      text-align: right;
+    }
+    .form-input-label-select {
+      margin-left: 44px;
+      #Team-Size {
+        width: 260px;
+        padding: 3px;
+      }
+    }
+    label {
+      display: inline-block;
+      text-align: right;
+      margin: 1px;
+      padding: 10px;
+      font-weight: 400;
+    }
+    h5 {
+      font-weight: 100;
+    }
+    input {
+      width: 400px;
+      margin: 10px;
+      padding: 2px;
+    }
+    .secure-site {
+      position: absolute;
+      top: 540px;
+      left: 560px;
+    }
+    .password {
+      margin-right: 239px;
+      font-weight: 100;
+      font-size: 15px;
+    }
+    p {
+      margin-left: 20px;
+    }
+  }
+}
+
+.side-comment {
+  background-color: rgba(168, 168, 255, 0.247);
+  padding: 15px;
+  border-radius: 5px;
+  height: fit-content;
+  width: 300px;
+  margin: 40px;
+  h3 {
+    width: fit-content;
+    font-weight: 500;
+  }
+  p {
+    font-weight: 200;
+  }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Landing page</title>
+  </head>
+  <body>
+    <img class="pizzahutbackground" src="pizzahut background.jpg" alt="" />
+    <div class="header-nav">
+      <header id="header">
+        <nav id="nav-bar">
+          <span>
+            <img id="header-img" src="landingpagelogo.jpg" alt="" />
+            <h1 class="Main-Title"><a href="index.html">Pizza Hut</a></h1>
+          </span>
+          <ul>
+            <li class="nav-link">
+              <a href="index.html#location-title">Location</a>
+            </li>
+            <li class="nav-link"><a href="index.html#deals-title">Deals</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <section class="map-section">
+      <h1 id="location-title">LOCATION</h1>
+      <video
+        id="video"
+        src="../LandingPage/video/kauyyt.mp4"
+        height="240px"
+        width="320px"
+        controls
+      ></video>
+      <iframe
+        class="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d356738.63461470004!2d-81.54434484837793!3d28.34597652699324!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e77f7fc8a7947f%3A0x3dd84f75a78a9d4a!2sPizza%20Hut%20Express!5e0!3m2!1sen!2sus!4v1631557453319!5m2!1sen!2sus"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+      ></iframe>
+      >
+    </section>
+    <section id="deals-title">
+      <h2>DEALS</h2>
+      <img class="ad1" src="February_2020_49_Pizzahut_coupon_3724.jpg" alt="" />
+      <img class="ad2" src="pizza hut large deal.jpeg" alt="" />
+      <h3>To Recive Exclusive Pizza Hut Coupons</h3>
+      <h3>Email:</h3>
+      <form
+        id="form"
+        action=" https://www.freecodecamp.com/email-submit"
+        method="POST"
+      >
+        <label for="email">
+          <input
+            type="email"
+            id="email"
+            placeholder="Email"
+            name="email"
+            required
+          />
+        </label>
+        <input type="submit" id="submit" value="Submit" />
+      </form>
+    </section>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+@import './styles/header';
+@import './styles/title';
+@import './styles/forminputs';
+@import './styles/submit';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
