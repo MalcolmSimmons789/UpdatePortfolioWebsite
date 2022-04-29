@@ -49,7 +49,6 @@ p {
 
 .nav-sides:hover {
   color: orange;
-  border-bottom: solid black 3px;
 }
 
 .badge:hover {
@@ -58,114 +57,95 @@ p {
 
 /* End Nav */
 
-/* Welcome Section */
+/* Welcome section */
 
-/* 
-.overlay {
-  max-width: 100%;
-  height: 100%;
-  background: black;
-  opacity: 0.7;
-  position: absolute;
-  z-index: 100;
-} */
-
-.welcome > h2 {
+.welcome-text > h2 {
   font-family: 'Oswald', sans-serif;
 }
 
-.welcome {
-  width: 320px;
-  left: 450px;
+.welcome-text {
+  left: 60px;
+  width: 420px;
   font-size: 20px;
   color: white;
   border: solid black 6px;
   padding: 10px;
   border-radius: 10px;
   background: #262a10;
+  position: absolute;
+  top: 40px;
 }
-/* End Header */
 
-/* Welcome background */
-.specials-background {
-  max-width: 480px;
-  height: 275px;
-  max-width: 100%;
+.welcome-section {
+  margin-bottom: -5px;
+  position: relative;
+  border-bottom: black;
+}
+
+.burger-header-background {
+  height: 295px;
   background-size: cover;
   width: 100%;
   object-fit: cover;
 }
+/* End Header */
 
-.regular-background {
-  border-bottom: solid black 2px;
-}
-
-.cover {
-  background-color: black;
-}
-/* End Welcome */
-
-/* Sides */
-/* .section-cards { */
-/* display: grid;
-}
-
-.sides img {
-  border: solid 2px black;
-  height: 200px;
-  object-fit: cover;
-}
-
-.sides h2 a {
-  margin: 14px;
-  display: inline-block;
-  font-family: 'Oswald', sans-serif;
-  border-bottom: solid black 4px;
-  color: orange;
-}
-
-.sides h2 {
-  border-radius: 10px;
-  margin: 8px;
-  width: 148px;
-}
-
-.sides {
-  vertical-align: top;
-}
-
-.sides p {
-  background-color: #262a10;
-  padding: 10px;
-  border-radius: 10px;
-  color: white;
-  font-size: 18px;
-  border: solid black 2px;
-}
-
-.sides a {
-  text-decoration: none;
-  list-style: none;
-  color: white;
-}
-.sides {
-  border-radius: 8px;
-  margin: 10px;
-  padding: 20px;
-  width: 250px;
-  height: 100%;
-  align-items: center;
-  background: #54442b;
-  display: inline-block;
-  align-content: center;
-}
-.sides h2 a:hover {
-  color: black;
+/* 1# body section */
+.first_body_section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: minmax(100px, auto);
   background: orange;
-  padding: 8px;
-  border-radius: 15px;
-} */
-/* End Sides */
+  z-index: 0;
+}
+.first_body_section h1 {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  margin: 15px;
+  font-family: 'Pattaya', sans-serif;
+  border-bottom: solid black 4px;
+}
+.first_body_section p {
+  font-weight: 50;
+  font-size: 25px;
+  margin: 8px;
+  font-family: 'Oswald', sans-serif;
+}
+.first_body_section a {
+  font-size: 25px;
+  margin: 8px;
+  display: block;
+}
+
+.Most_popular_choice-left {
+  padding: 10px;
+}
+.Most_popular_choice-left img {
+  margin: 20px;
+  object-fit: cover;
+  left: 350px;
+  display: flex;
+  float: right;
+  bottom: -290px;
+  width: 200px;
+  height: 200px;
+  overflow: visible;
+  transform: rotate(45deg);
+  border-radius: 5px;
+}
+.Most_popular_choice-right {
+  padding: 10px;
+  border-left: solid rgb(255, 255, 255) 1.5px;
+}
+
+.Most_popular_choice-right img {
+  margin: 20px;
+  border-radius: 5px;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+}
+/* End 1# body section */
 
 /* Footer */
 .footer-section {
@@ -178,6 +158,7 @@ p {
 }
 
 /* End footer */
+
 /* Start media query's */
 @media screen and (min-width: 900px) {
   .sides {
