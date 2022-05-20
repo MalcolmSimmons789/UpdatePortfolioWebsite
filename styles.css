@@ -109,7 +109,7 @@ li a:hover {
 .project-tile h2 {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  display: flex;
+  /* display: flex; */
   padding: 5px;
   justify-content: center;
 }
@@ -125,7 +125,7 @@ li a:hover {
 
 /*-------------- Image hover effect */
 
-.image {
+.image_hover {
   position: relative;
   width: 415px;
 }
