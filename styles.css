@@ -79,11 +79,9 @@ nav a {
 
 .about-section {
   text-align: center;
-  width: 80%;
-  margin: 0 30px;
-  font-size: 500px;
   background-color: #669bbc;
   padding: 20px;
+  margin: 0 40px;
   border: solid 1px #365263;
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 28px -9px #000000;
@@ -155,6 +153,7 @@ nav a {
 
 .project_thumbnail_images {
   width: fit-content;
+  cursor: pointer;
 }
 
 .project__icon__used {
@@ -164,6 +163,13 @@ nav a {
   font-size: 60px;
 }
 
+.project-tile img {
+  border-radius: 2px;
+  object-fit: cover;
+  object-position: center;
+  height: 350px;
+  width: 100%;
+}
 /* End Projects */
 
 /*-------------- Image hover effect */
@@ -171,14 +177,6 @@ nav a {
 .image_hover {
   position: relative;
   width: auto;
-}
-
-.project-tile img {
-  border-radius: 2px;
-  object-fit: cover;
-  object-position: center;
-  height: 350px;
-  width: 100%;
 }
 
 .overlay_viewwebsite {
@@ -382,18 +380,13 @@ nav a {
 /* Start Media queries */
 
 /* About section media */
-@media (min-width: 450px) {
-  .about-section {
-    height: 30%;
-    width: 80%;
-    margin: 0 40px;
-    -webkit-box-shadow: 5px 5px 28px -9px #000000;
-    box-shadow: 5px 5px 28px -9px #000000;
-    text-align: center;
-    background-color: #669bbc;
-    padding: 5px;
-    border: solid 1px #365263;
-    border-radius: 15px;
+@media (min-width: 390px) {
+  .overlay {
+    display: none;
+  }
+
+  .project-tile {
+    cursor: pointer;
   }
 
   .about-section h2 {
@@ -410,10 +403,15 @@ nav a {
   /* End about section */
 }
 @media (min-width: 500px) {
-  #Projects {
-    cursor: pointer;
+  .language-learned {
     display: grid;
-    grid-template-columns: repeat(1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .project-tile {
+    cursor: pointer;
+  }
+  #Projects {
+    grid-template-columns: repeat(1, 1fr);
   }
   .overlay {
     display: none;
