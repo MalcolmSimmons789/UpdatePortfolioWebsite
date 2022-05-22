@@ -203,10 +203,8 @@ li a:hover {
 
 .overlay_viewwebsite:hover {
   transform: scale(1.5);
-  border-bottom: solid #780000 2px;
 }
 .overlay_viewcode:hover {
-  border-bottom: solid #780000 2px;
   transform: scale(1.5);
 }
 
