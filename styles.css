@@ -344,6 +344,7 @@ nav a {
 
 .Contacts a {
   font-size: 65px;
+  margin: 0 25px;
   text-decoration: none;
   transition: all 0.2s ease-in-out;
 }
@@ -355,6 +356,7 @@ nav a {
 
 .facebook_icon {
   color: rgb(10, 10, 255);
+  margin: 0 25px;
 }
 
 .fa-github {
