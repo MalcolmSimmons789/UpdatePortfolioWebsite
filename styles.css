@@ -15,7 +15,6 @@ html {
 /* Start Nav */
 
 nav {
-  z-index: 3;
   position: fixed;
   font-weight: 800;
   width: 100%;
@@ -34,15 +33,13 @@ nav a {
   text-decoration: none;
   color: #fff;
 }
-
-.nav-links a {
-  transition: 1s ease;
+.nav-links {
+  color: black;
 }
 
-.nav-links a:hover {
-  transform: scale(1.3);
-  -webkit-transform: scale(1);
-  -ms-transform: scale(1.3);
+.nav-links:hover {
+  color: black;
+  border-bottom: solid white 1px;
 }
 
 /* End Nav */
