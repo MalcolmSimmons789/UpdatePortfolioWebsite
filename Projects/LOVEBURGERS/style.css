@@ -45,7 +45,7 @@ p {
 }
 
 .header-list a {
-  font-size: 20px;
+  font-size: 25px;
   list-style: none;
   text-decoration: none;
   margin: 8px;
@@ -65,13 +65,15 @@ p {
 /* Welcome section */
 
 .welcome-text > h2 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 34px;
 }
 
 .welcome-text {
   left: 60px;
-  width: 420px;
-  font-size: 20px;
+  width: 1020px;
+  font-family: 'Pattaya', sans-serif;
+  font-size: 28px;
   color: white;
   border: solid black 6px;
   padding: 10px;
@@ -97,21 +99,29 @@ p {
 
 /* 1# body section */
 .first_body_section {
-  background: orange;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  background: rgb(233, 111, 12);
   z-index: 0;
 }
 .first_body_section h1 {
-  color: rgb(0, 0, 0);
+  color: black;
+  text-align: center;
+  outline: black;
   display: inline-block;
-  margin: 15px;
+  font-size: 40px;
   font-family: 'Pattaya', sans-serif;
-  border-bottom: solid black 4px;
+  background-color: white;
+  padding: 9px;
+  border-radius: 25px;
 }
 .first_body_section p {
   font-weight: 50;
+  width: 480px;
   font-size: 25px;
   margin: 8px;
-  font-family: 'Oswald', sans-serif;
+  color: white;
 }
 .first_body_section a {
   font-size: 25px;
@@ -121,6 +131,7 @@ p {
 
 .Most_popular_choice-left {
   padding: 10px;
+  background: #262a10;
 }
 .Most_popular_choice-left img {
   margin: 20px;
@@ -137,7 +148,6 @@ p {
 }
 .Most_popular_choice-right {
   padding: 10px;
-  border-left: solid rgb(255, 255, 255) 1.5px;
 }
 
 .Most_popular_choice-right img {
@@ -157,7 +167,7 @@ p {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 10px;
-  color: black;
+  color: white;
   border-radius: 5px;
   width: fit-content;
   transition: all 0.2s ease-in-out;
