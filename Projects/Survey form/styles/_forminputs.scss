@@ -5,7 +5,12 @@
     margin: 8px;
     padding: 20px;
     .form-input-label {
-      text-align: right;
+      text-align: left;
+      .secure-site {
+        position: absolute;
+        top: 580px;
+        left: 600px;
+      }
     }
     .form-input-label-select {
       margin-left: 44px;
@@ -25,15 +30,12 @@
       font-weight: 100;
     }
     input {
+      outline: none;
       width: 400px;
       margin: 10px;
       padding: 2px;
     }
-    .secure-site {
-      position: absolute;
-      top: 540px;
-      left: 560px;
-    }
+
     .password {
       margin-right: 239px;
       font-weight: 100;
