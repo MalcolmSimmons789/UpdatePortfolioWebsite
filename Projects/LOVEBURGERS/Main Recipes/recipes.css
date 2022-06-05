@@ -224,6 +224,7 @@ h3 {
     gap: 3px;
     grid-auto-rows: minmax(40px, auto);
   }
+}
 @media (min-width: 1500px) {
   .box {
     border-radius: 5px;
