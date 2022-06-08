@@ -5,8 +5,6 @@
 }
 
 /* Classes */
-.main_blue_color {
-}
 /* End classes */
 
 html {
@@ -20,7 +18,7 @@ nav {
   width: 100%;
   background-color: #669bbc;
   padding: 20px;
-  z-index: 5;
+  z-index: 1;
   border-bottom: solid 1px rgba(0, 0, 0, 0.158);
 }
 
@@ -33,14 +31,14 @@ nav li {
 nav a {
   text-decoration: none;
   color: #fff;
+  transition: 0.5s all ease-in-out;
 }
-.nav-links {
-  color: black;
+.navlinks {
 }
 
-.nav-links:hover {
-  color: black;
-  border-bottom: solid white 1px;
+.nav:hover a {
+  transform: scale(1.8);
+  color: white;
 }
 
 /* End Nav */
@@ -60,6 +58,7 @@ nav a {
 
 .profile_pic img {
   height: 250px;
+  transition: 0.4s all ease-in-out;
   width: 250px;
   border-radius: 50%;
 }
@@ -71,6 +70,10 @@ nav a {
   font-size: 55px;
   padding: 20px 0 40px 0;
   font-family: 'Grape Nuts', cursive;
+}
+
+.profile_pic img:hover {
+  transform: scale(1.2);
 }
 
 /* About section */
@@ -256,9 +259,6 @@ nav a {
 .fa-brands.fa-bootstrap {
   color: rgb(255, 88, 255);
   padding: 5px;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
 
 .experiance-title {
@@ -271,15 +271,23 @@ nav a {
 
 .language-learned {
   display: grid;
-  grid-template-columns: repeat(33, 0.8fr);
+  grid-template-columns: auto auto auto auto;
   margin: 20px;
   grid-template-rows: minmax(80px, auto);
 }
+
 .language-learned i {
-  font-size: 125px;
+  font-size: 8rem;
   display: flex;
+  margin: 0;
+  padding: 0;
   justify-content: center;
   align-items: center;
+  transition: 0.4s all ease-in-out;
+}
+
+.language-learned i:hover {
+  transform: scale(1.2);
 }
 
 .language-learned h2 {
@@ -417,7 +425,7 @@ nav a {
 @media (min-width: 500px) {
   .language-learned {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .project-tile {
     cursor: pointer;
