@@ -21,24 +21,24 @@ nav {
   width: 100%;
   padding: 20px;
   z-index: 1;
-  border-bottom: solid 2px rgb(0, 0, 0);
+  border-bottom: solid 0.7px rgba(0, 0, 0, 0.521);
 }
 
 nav li {
   display: inline-flex;
   font-size: 25px;
   margin: 0 25px;
-  transition: 0.5s all ease-in-out;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
+  transition: 0.3s all ease-in-out;
 }
 
-.nav:hover a {
-  transform: scale(1.8);
-  color: white;
+nav a:hover {
+  transform: scale(1.4);
+  color: black;
 }
 
 /* End Nav */
@@ -378,16 +378,6 @@ nav a {
 
 /* About section media */
 @media (min-width: 390px) {
-  nav {
-    position: fixed;
-    font-weight: 800;
-    width: 100%;
-    background-color: #669bbc;
-    padding: 20px;
-    z-index: 8;
-    border-bottom: solid 1px rgba(0, 0, 0, 0.158);
-  }
-
   .overlay {
     display: none;
   }
