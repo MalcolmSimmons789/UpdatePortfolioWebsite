@@ -77,8 +77,8 @@ nav a:hover {
 
 .about-section {
   text-align: center;
-  padding: 20px;
-  margin: 0 40px;
+  padding: 50px;
+  margin: 0 390px;
   border: solid 1px #570606;
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 28px -9px #000000;
@@ -96,8 +96,8 @@ nav a:hover {
 .about-section p {
   color: #fff;
   margin: 10px;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 40px;
+  font-weight: 300;
 }
 
 /* End About section */
