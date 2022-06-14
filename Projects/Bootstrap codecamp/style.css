@@ -1,0 +1,15 @@
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
+@media (min-width: 768px) {
+  .news-inpute {
+    width: 50%;
+  }
+}
+/* 
+.react-img {
+  object-fit: fill;
+} */
