@@ -5,8 +5,8 @@ body {
   height: 100vh;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
-  background: red;
-  background-image: url('https://source.unsplash.com/1600x900/?landscape');
+  background: rgb(192, 192, 192);
+  background-image: url('https://source.unsplash.com/1920x900/?landscape');
   font-size: 120%;
 }
 

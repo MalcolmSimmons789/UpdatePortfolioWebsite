@@ -111,6 +111,8 @@ nav a:hover {
   grid-auto-columns: repeat(1, 1fr);
   grid-auto-rows: minmax(80px, auto);
   gap: 10px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .project-headers {
@@ -138,11 +140,16 @@ nav a:hover {
   justify-content: center;
 }
 
-.project-tile h3 {
-  background-color: #fff;
+.languages_used {
+  background-color: rgb(255, 255, 255);
+  font-size: 62px;
   display: flex;
-  border-bottom-right-radius: 15px;
-  border-bottom-left-radius: 15px;
+  justify-content: center;
+}
+
+.project-tile h3 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
   justify-content: center;
 }
 
