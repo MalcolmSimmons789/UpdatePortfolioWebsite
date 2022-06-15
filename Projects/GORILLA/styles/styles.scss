@@ -1,15 +1,14 @@
-@import "./sidebar";
-@import "./header";
-@import "./funfacts";
-@import "./diet";
-@import "./footer";
+@import './sidebar';
+@import './header';
+@import './about';
+@import './footer';
 
 $Navbarbutton: rgb(62, 214, 121);
 
 * {
   margin: 0;
   padding: 0;
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
