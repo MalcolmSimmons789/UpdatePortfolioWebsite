@@ -1,17 +1,16 @@
-.gorilla-diet {
-  display: block;
-  margin: 120px 180px 0px 180px;
+#about {
   h1 {
     font-size: 60px;
+    margin: 40px;
   }
   p {
     font-size: 19px;
   }
   img {
-    object-fit: cover;
-    width: 500px;
-    height: 350px;
-    margin-top: 20px;
+    object-fit: fill;
+    width: 100px;
+    height: 150px;
+    margin: 40px 0 20px 0;
     border-radius: 8px;
     display: flex;
     justify-content: center;
@@ -20,25 +19,7 @@
   }
 }
 
-// Fun Facts Section
-
-.fun-facts {
-  display: block;
-  margin: 120px 180px 0px 180px;
-  h1 {
-    font-size: 60px;
-  }
-  p {
-    font-size: 19px;
-  }
-  img {
-    object-fit: cover;
-    width: 500px;
-    height: 350px;
-    margin: 20px 0 0 50px;
-    border-radius: 8px;
-    box-shadow: 10px 11px 15px 5px rgba(0, 0, 0, 0.27);
-  }
+.about-image {
 }
 
 // Overall
