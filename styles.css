@@ -388,6 +388,16 @@ nav a:hover {
 
 /* About section media */
 @media (min-width: 390px) {
+  .about-section {
+    text-align: center;
+    padding: 50px;
+    margin: 0 390px;
+    border: solid 1px #570606;
+    border-radius: 15px;
+    -webkit-box-shadow: 5px 5px 28px -9px #000000;
+    box-shadow: 5px 5px 28px -9px #000000;
+  }
+
   .overlay {
     display: none;
   }
