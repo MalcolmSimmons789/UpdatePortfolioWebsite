@@ -44,10 +44,6 @@ nav a:hover {
   color: black;
 }
 
-.resume {
-  float: ;
-}
-
 /* End Nav */
 
 /* About me */
@@ -332,7 +328,7 @@ nav a:hover {
 
 /* Start Contacts */
 .Contacts {
-  padding: 45px;
+  padding: 5px;
 }
 
 .Contacts h2 {
@@ -418,9 +414,6 @@ nav a:hover {
   nav a:hover {
     transform: scale(1);
   }
-  .resume {
-    float: ;
-  }
 
   /* About Responsive section */
   .about-section {
@@ -483,6 +476,12 @@ nav a:hover {
   /* End about section */
 }
 @media (min-width: 500px) {
+  /* Nav Section */
+  .resume {
+    display: flex;
+    float: right;
+  }
+
   .language-learned {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
