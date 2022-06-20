@@ -44,6 +44,10 @@ nav a:hover {
   color: black;
 }
 
+.resume {
+  float: ;
+}
+
 /* End Nav */
 
 /* About me */
@@ -81,7 +85,8 @@ nav a:hover {
 .about-section {
   text-align: center;
   padding: 50px;
-  margin: 0 390px;
+  max-width: 100%;
+  margin: 0 40px;
   border: solid 1px #570606;
   border-radius: 15px;
   -webkit-box-shadow: 5px 5px 28px -9px #000000;
@@ -387,23 +392,63 @@ nav a:hover {
 /* Start Media queries */
 
 /* About section media */
-@media (min-width: 390px) {
+@media (max-width: 390px) {
+  /* Nav responsive */
+  nav {
+    position: fixed;
+    font-weight: 800;
+    width: 100%;
+    padding: 8px;
+    z-index: 1;
+    border-bottom: solid 0.7px rgba(0, 0, 0, 0.521);
+  }
+
+  nav li {
+    display: inline;
+    font-size: 19px;
+    padding: 0;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.3s all ease-in-out;
+  }
+
+  nav a:hover {
+    transform: scale(1);
+  }
+  .resume {
+    float: ;
+  }
+
+  /* About Responsive section */
   .about-section {
+    padding: 8px;
     text-align: center;
-    padding: 50px;
-    margin: 0 390px;
     border: solid 1px #570606;
     border-radius: 15px;
     -webkit-box-shadow: 5px 5px 28px -9px #000000;
     box-shadow: 5px 5px 28px -9px #000000;
   }
 
-  .overlay {
-    display: none;
+  .about-section h2 {
+    font-size: 40px;
+    color: #fff;
+    margin: 20px 0;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.158);
+    padding: 10px;
   }
 
-  .project-tile {
-    cursor: pointer;
+  .about-section p {
+    color: #fff;
+    font-size: 10px;
+    padding: 0;
+    font-weight: 300;
+  }
+
+  .overlay {
+    display: none;
   }
 
   .about-section h2 {
@@ -417,6 +462,21 @@ nav a:hover {
     font-size: 20px;
     font-weight: 600;
   }
+  #Projects {
+    background-color: #fff;
+    padding: 0px;
+    display: grid;
+    grid-auto-columns: repeat(1, 1fr);
+    grid-auto-rows: minmax(80px, auto);
+    gap: 10px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .project-tile {
+    cursor: pointer;
+  }
+
   .learned-icons {
     grid-template-columns: repeat(1, 1fr);
   }
