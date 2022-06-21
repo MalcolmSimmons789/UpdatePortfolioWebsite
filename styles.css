@@ -20,7 +20,7 @@ html {
 
 nav {
   position: fixed;
-  font-weight: 800;
+  font-weight: 300;
   width: 100%;
   padding: 20px;
   z-index: 1;
@@ -42,7 +42,6 @@ nav a:hover {
   transform: scale(1.4);
   color: black;
 }
-
 /* End Nav */
 
 /* About me */
@@ -81,24 +80,20 @@ nav a:hover {
   display: block;
   text-align: center;
   padding: 20px;
-  width: 0 auto;
-  margin: 0 20px;
-  border: solid 1px #570606;
-  border-radius: 15px;
-  -webkit-box-shadow: 5px 5px 28px -9px #000000;
-  box-shadow: 5px 5px 28px -9px #000000;
+  max-width: 0 auto;
 }
 
 .about-section h2 {
   font-size: 50px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   margin: 20px 0;
+  font-weight: 300;
   border-bottom: solid 1px rgba(0, 0, 0, 0.158);
   padding: 10px;
 }
 
 .about-section p {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 20px;
   border-radius: 8px;
   font-weight: 300;
@@ -119,11 +114,14 @@ nav a:hover {
   border-top-right-radius: 15px;
 }
 
-.project-headers {
+.project-title {
   color: rgb(0, 0, 0);
   text-align: center;
   font-size: 70px;
+  font-weight: 300;
   padding: 120px 0 0 0;
+  border-bottom: solid 1px rgba(0, 0, 0, 0.158);
+  margin: 80px 0 15px 0;
 }
 
 .project-tile {
@@ -139,6 +137,7 @@ nav a:hover {
   font-size: 2rem;
   color: #fff;
   padding: 15px;
+  font-weight: 500;
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   justify-content: center;
@@ -154,6 +153,7 @@ nav a:hover {
 .project-tile h3 {
   background-color: rgb(255, 255, 255);
   display: flex;
+  font-weight: 300;
   justify-content: center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
@@ -276,8 +276,9 @@ nav a:hover {
 .experiance-title {
   color: rgb(0, 0, 0);
   text-align: center;
-  margin: 0;
+  margin: 80px 0 0 0;
   font-size: 50px;
+  font-weight: 300;
   border-bottom: solid 1px rgba(0, 0, 0, 0.158);
 }
 
@@ -310,6 +311,7 @@ nav a:hover {
 .language-learned h2 {
   display: block;
   width: 100%;
+  font-weight: 300;
   border-bottom: solid 1px rgba(0, 0, 0, 0.158);
   font-size: 50px;
 }
@@ -346,6 +348,7 @@ nav a:hover {
 .Contacts h2 {
   color: rgb(0, 0, 0);
   text-align: center;
+  font-weight: 300;
   margin: 0 0 25px 0;
   font-size: 50px;
   border-bottom: solid 1px rgba(0, 0, 0, 0.158);
@@ -363,7 +366,7 @@ nav a:hover {
   font-size: 65px;
   margin: 0 25px;
   text-decoration: none;
-  transition: all 0.2s ease-in-out;
+  transition: all 20s ease-in-out;
 }
 
 .Contacts img {
@@ -404,7 +407,6 @@ nav a:hover {
   /* Nav responsive */
   nav {
     position: fixed;
-    font-weight: 800;
     width: 100%;
     padding: 8px;
     z-index: 1;
@@ -420,18 +422,7 @@ nav a:hover {
   nav a {
     text-decoration: none;
     color: #fff;
-    transition: 0.3s all ease-in-out;
-  }
-
-  nav a {
-    text-decoration: none;
-    color: #fff;
     font-size: 15px;
-    transition: 0.3s all ease-in-out;
-  }
-
-  nav a:hover {
-    transform: scale(1);
   }
 
   /* About Responsive section */
@@ -439,25 +430,15 @@ nav a:hover {
     padding: 8px;
     text-align: center;
     margin: 0 10px;
-    border: solid 1px #570606;
-    border-radius: 15px;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
 
   .about-section h2 {
-    color: #fff;
+    margin: 0 10px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.158);
     padding: 2px;
     font-size: 30px;
-  }
-
-  .about-section p {
-    color: #fff;
-    font-size: 30px;
-    padding: 0;
-    font-weight: 300;
-    background-color: none;
   }
 
   .overlay {
@@ -465,12 +446,10 @@ nav a:hover {
   }
 
   .about-section p {
-    color: #fff;
     padding: 20px;
-    background-color: #5706064f;
     border-radius: 8px;
-    font-weight: 300;
   }
+  /* Project Section */
   #Projects {
     background-color: #fff;
     padding: 0px;
@@ -494,6 +473,8 @@ nav a:hover {
     border-bottom-right-radius: 15px;
   }
 
+  /* Launguages icons section */
+
   .learned-icons {
     grid-template-columns: repeat(1, 1fr);
   }
@@ -501,12 +482,6 @@ nav a:hover {
 
 @media screen and (min-width: 500px) {
   /* Nav Section */
-  .resume {
-    display: flex;
-    float: right;
-    padding-right: 30px;
-  }
-
   .language-learned {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -539,9 +514,14 @@ nav a:hover {
 @media screen and (min-width: 1060px) {
   nav li {
     display: inline;
+    font-size: 40px;
+    padding: 10px;
+  }
+  nav a {
     font-size: 30px;
-    padding: 40px;
-    padding: 0;
+  }
+  nav a:hover {
+    color: black;
   }
 
   .about-section {
@@ -550,24 +530,16 @@ nav a:hover {
     padding: 50px;
     width: 0 auto;
     margin: 0 10px;
-    border: solid 1px #570606;
-    border-radius: 15px;
-    -webkit-box-shadow: 5px 5px 28px -9px #000000;
-    box-shadow: 5px 5px 28px -9px #000000;
   }
 
   .about-section h2 {
-    color: #fff;
     border-bottom: solid 1px rgba(0, 0, 0, 0.158);
     padding: 10px;
     font-size: 65px;
   }
 
   .about-section p {
-    color: #fff;
     font-size: 30px;
-    font-weight: 600;
-    background-color: red;
   }
 
   #Projects {
