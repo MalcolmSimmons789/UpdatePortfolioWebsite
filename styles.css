@@ -31,12 +31,13 @@ nav {
 nav li {
   display: inline-flex;
   margin: 0 25px;
+  font-size: 1.5rem;
 }
 
 nav a {
   text-decoration: none;
   color: #fff;
-  transition: 0.3s all ease-in-out;
+  transition: all 0.4s ease-in-out;
 }
 
 nav a:hover {
@@ -404,19 +405,17 @@ nav a:hover {
 
   nav li {
     display: inline;
-    font-size: 5px;
     padding: 0;
   }
 
   nav a {
     text-decoration: none;
     color: #fff;
-    font-size: 15px;
   }
 
   /* About Responsive section */
   .about-section {
-    padding: 8px;
+    padding-top: 100px;
     text-align: center;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -503,14 +502,7 @@ nav a:hover {
 @media screen and (min-width: 1060px) {
   nav li {
     display: inline;
-    font-size: 40px;
     padding: 10px;
-  }
-  nav a {
-    font-size: 30px;
-  }
-  nav a:hover {
-    color: black;
   }
 
   .about-section {
