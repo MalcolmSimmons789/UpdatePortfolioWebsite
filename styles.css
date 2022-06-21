@@ -24,13 +24,11 @@ nav {
   width: 100%;
   padding: 20px;
   z-index: 1;
-  max-height: 50px;
   border-bottom: solid 0.7px rgba(0, 0, 0, 0.521);
 }
 
 nav li {
   display: inline-flex;
-  font-size: 45px;
   margin: 0 25px;
 }
 
@@ -114,7 +112,7 @@ nav a:hover {
   background-color: #fff;
   padding: 40px;
   display: grid;
-  grid-auto-columns: repeat(4, 1fr);
+  grid-auto-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(80px, auto);
   gap: 10px;
   border-top-left-radius: 15px;
@@ -144,6 +142,10 @@ nav a:hover {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
   justify-content: center;
+}
+.project-tile h3 {
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
 }
 
 .languages_used {
@@ -302,6 +304,11 @@ nav a:hover {
   transform: scale(1.2);
 }
 
+.fa-bounce {
+  --fa-bounce-rebound: 5000s;
+  --fa-bounce-height: 2px;
+}
+
 .language-learned h2 {
   display: block;
   width: 100%;
@@ -408,13 +415,20 @@ nav a:hover {
 
   nav li {
     display: inline;
-    font-size: 19px;
+    font-size: 5px;
     padding: 0;
   }
 
   nav a {
     text-decoration: none;
     color: #fff;
+    transition: 0.3s all ease-in-out;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
     transition: 0.3s all ease-in-out;
   }
 
@@ -427,10 +441,11 @@ nav a:hover {
     padding: 8px;
     text-align: center;
     margin: 0 10px;
+    width: 0 auto;
     border: solid 1px #570606;
     border-radius: 15px;
-    -webkit-box-shadow: 5px 5px 28px -9px #000000;
-    box-shadow: 5px 5px 28px -9px #000000;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 
   .about-section h2 {
@@ -497,6 +512,8 @@ nav a:hover {
   }
   .project-tile {
     cursor: pointer;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
   #Projects {
     grid-template-columns: repeat(1, 1fr);
@@ -508,7 +525,7 @@ nav a:hover {
 @media (min-width: 700px) {
   #Projects {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
   .overlay {
     display: none;
@@ -531,7 +548,7 @@ nav a:hover {
     text-align: center;
     padding: 50px;
     width: 0 auto;
-    margin: 0 340px;
+    margin: 0 10px;
     border: solid 1px #570606;
     border-radius: 15px;
     -webkit-box-shadow: 5px 5px 28px -9px #000000;
@@ -540,7 +557,7 @@ nav a:hover {
 
   #Projects {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
   .overlay {
     display: flex;
