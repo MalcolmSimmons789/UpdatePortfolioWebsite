@@ -147,6 +147,10 @@ nav a:hover {
   justify-content: center;
 }
 
+.about_project_section {
+  text-align: center;
+}
+
 .languages_used {
   font-size: 62px;
   display: flex;
@@ -425,7 +429,7 @@ nav a:hover {
     margin: 0 220px;
   }
 
-  .about-section h2 {
+  .section-title {
     margin: 1px 10px;
     border-bottom: solid 1px rgba(0, 0, 0, 0.158);
     padding: 2px;
@@ -438,6 +442,7 @@ nav a:hover {
 
   .about-section p {
     padding: 0px;
+    font-size: 22px;
     border-radius: 8px;
   }
   /* Project Section */
@@ -473,7 +478,18 @@ nav a:hover {
 }
 
 @media screen and (min-width: 500px) {
-  /* Nav Section */
+  /* about section */
+  .about-section {
+    display: block;
+    text-align: center;
+    padding-top: 80px;
+    margin: 0 20px;
+    width: 0 auto;
+  }
+  .section-title {
+    font-size: 50px;
+  }
+  /* Project section */
   .language-learned {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -491,10 +507,34 @@ nav a:hover {
   }
 }
 @media screen and (min-width: 700px) {
+  .about-section {
+    display: block;
+    text-align: center;
+    padding: 0px;
+    margin: 0 20px;
+    width: 0 auto;
+  }
+
+  .section-title {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.158);
+    padding-top: 80px;
+    font-size: 45px;
+  }
+
+  .about-section p {
+    font-size: 30px;
+    margin: 0 0px;
+    width: 100%;
+  }
   #Projects {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .project-tile h2 {
+    font-size: 45px;
+  }
+
   .overlay {
     display: none;
   }
@@ -516,7 +556,7 @@ nav a:hover {
     width: 0 auto;
   }
 
-  .about-section h2 {
+  .section-title {
     border-bottom: solid 1px rgba(0, 0, 0, 0.158);
     padding-top: 80px;
     font-size: 65px;
@@ -524,7 +564,7 @@ nav a:hover {
 
   .about-section p {
     font-size: 30px;
-    margin: 0 380px;
+    margin: 0 0px;
   }
 
   #Projects {
@@ -539,7 +579,25 @@ nav a:hover {
     grid-template-columns: repeat(7, 1fr);
   }
 }
-@media (min-width: 1800px) {
+@media screen and (min-width: 1600px) {
+  .about-section {
+    display: block;
+    text-align: center;
+    padding: 50px;
+    width: 0 auto;
+  }
+
+  .section-title {
+    border-bottom: solid 1px rgba(0, 0, 0, 0.158);
+    padding-top: 80px;
+    font-size: 65px;
+  }
+
+  .about-section p {
+    font-size: 30px;
+    margin: 0 120px;
+  }
+
   #Projects {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
