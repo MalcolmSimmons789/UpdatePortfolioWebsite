@@ -82,8 +82,8 @@ nav a:hover {
   display: block;
   text-align: center;
   padding: 20px;
-  margin: 0 220px;
-  max-width: 0 auto;
+  margin: 0 0px;
+  width: 0 auto;
 }
 
 .section-title {
@@ -595,7 +595,7 @@ nav a:hover {
 
   .about-section p {
     font-size: 30px;
-    margin: 0 0px;
+    text-align: center;
   }
 
   #Projects {
