@@ -86,6 +86,16 @@ nav a:hover {
   width: 0 auto;
 }
 
+.about-section h2 {
+  border-bottom: solid rgba(0, 0, 0, 0.342) 0.9px;
+  display: block;
+  text-align: center;
+  padding: 140px 0 0 0;
+  margin: 0 0 20px 0;
+  font-size: 50px;
+  font-weight: 500;
+}
+
 .section-title {
   font-size: 50px;
   color: rgb(0, 0, 0);
