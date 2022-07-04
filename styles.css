@@ -420,9 +420,6 @@ nav a:hover {
 		border-bottom: solid 0.7px rgba(0, 0, 0, 0.521);
 	}
 
-	nav ul {
-	}
-
 	nav a {
 		display: none;
 	}
@@ -492,7 +489,7 @@ nav a:hover {
 	}
 
 	nav a {
-		display: none;
+		display: block;
 	}
 
 	.about-section {
