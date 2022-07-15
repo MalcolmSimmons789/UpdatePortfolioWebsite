@@ -657,10 +657,17 @@ nav a:hover {
 
 	#Projects {
 		display: grid;
-		grid-template-columns: repeat(5, 1fr);
+		grid-template-columns: repeat(4, 1fr);
 	}
 	.overlay {
 		display: flex;
+	}
+}
+
+@media screen and (min-width: 2000px) {
+	#Projects {
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
 	}
 }
 /* End Media queries */
