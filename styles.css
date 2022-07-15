@@ -506,6 +506,19 @@ nav a:hover {
 		padding: 10px;
 	}
 
+	nav ul {
+		display: none;
+	}
+
+	.toggle_button {
+		display: block;
+	}
+
+	.toggle_button i {
+		display: block;
+		padding: 5px;
+	}
+
 	nav a {
 		display: inline-block;
 	}
@@ -513,7 +526,7 @@ nav a:hover {
 	.about-section {
 		display: block;
 		text-align: center;
-		padding-top: 80px;
+		padding-top: 40px;
 		margin: 0 20px;
 		width: 0 auto;
 	}
@@ -538,6 +551,19 @@ nav a:hover {
 	}
 }
 @media screen and (min-width: 700px) {
+	nav ul {
+		display: block;
+	}
+
+	.toggle_button {
+		display: none;
+	}
+
+	.toggle_button i {
+		display: none;
+		padding: 5px;
+	}
+
 	.about-section {
 		display: block;
 		text-align: center;
@@ -631,7 +657,7 @@ nav a:hover {
 
 	#Projects {
 		display: grid;
-		grid-template-columns: repeat(4, 1fr);
+		grid-template-columns: repeat(5, 1fr);
 	}
 	.overlay {
 		display: flex;
