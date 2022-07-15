@@ -18,6 +18,11 @@ html {
 }
 /* Start Nav */
 
+/* Hamburger menu */
+.toggle_button {
+	display: none;
+}
+
 nav {
 	position: fixed;
 	font-weight: 300;
@@ -420,13 +425,26 @@ nav a:hover {
 		border-bottom: solid 0.7px rgba(0, 0, 0, 0.521);
 	}
 
+	nav ul {
+		display: none;
+	}
+
+	.toggle_button {
+		display: block;
+	}
+
+	.toggle_button i {
+		display: block;
+		padding: 5px;
+	}
+
 	nav a {
 		display: none;
 	}
 
-	/* About Responsive section */
+	/* About section */
 	.about-section {
-		padding-top: 100px;
+		padding-top: 10px;
 		text-align: center;
 		-webkit-box-shadow: none;
 		box-shadow: none;
