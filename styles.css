@@ -21,6 +21,7 @@ html {
 /* Hamburger menu */
 .toggle_button {
 	display: none;
+	cursor: pointer;
 }
 
 nav {
@@ -50,36 +51,6 @@ nav a:hover {
 	color: black;
 }
 /* End Nav */
-
-/* About me */
-
-/* .profile_pic {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-top: 120px;
-  border-radius: 80%;
-}
-
-.profile_pic img {
-  height: 250px;
-  transition: 0.4s all ease-in-out;
-  width: 250px;
-  border-radius: 50%;
-}
-
-.profile_name {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 55px;
-  padding: 20px 0 40px 0;
-  font-family: 'Grape Nuts', cursive;
-}
-
-.profile_pic img:hover {
-  transform: scale(1.2);
-} */
 
 /* About section */
 
