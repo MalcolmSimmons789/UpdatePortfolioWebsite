@@ -155,7 +155,7 @@ nav a:hover {
 	margin: 5px;
 	border-radius: 5px;
 	padding: 2px;
-	background-color: rgb(236, 236, 236);
+	background-color: rgba(0, 0, 0, 0.201);
 	text-align: center;
 }
 
