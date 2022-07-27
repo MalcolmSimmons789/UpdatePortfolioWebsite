@@ -138,7 +138,7 @@ nav a:hover {
 
 .project-tile h3 {
 	display: flex;
-	font-weight: 300;
+	font-weight: 500;
 	justify-content: center;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
@@ -155,7 +155,7 @@ nav a:hover {
 	margin: 5px;
 	border-radius: 5px;
 	padding: 2px;
-	background-color: rgba(0, 0, 0, 0.201);
+	background-color: rgba(0, 0, 0, 0.083);
 	text-align: center;
 }
 
